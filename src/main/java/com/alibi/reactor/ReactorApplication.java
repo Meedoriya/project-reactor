@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CatalizatorApplication {
+public class ReactorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CatalizatorApplication.class, args);
+		SpringApplication.run(ReactorApplication.class, args);
 	}
 
 }
