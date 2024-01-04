@@ -42,10 +42,10 @@ public class AuthenticationManager implements ReactiveAuthenticationManager {
             UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(
                     username,
                     null
-                    ,authorities
+                    , authorities
             );
 
-            return Mono.just(authentication);
+            return Mono.just(authenticationToken);
         } else {
             return Mono.empty();
         }
